@@ -149,15 +149,24 @@
   }
 
   ._button-main {
-    @apply font-semibold bg-brandColor px-5 py-1.5 rounded-md text-white uppercase text-sm hover:bg-brandColor/10 hover:text-brandColor transition-all duration-150;
+    @apply font-semibold bg-brandColor px-5 py-2.5 rounded-md text-white uppercase text-sm hover:bg-brandColor/10 hover:text-brandColor transition-all duration-150;
   }
 
   ._login-input{
     @apply w-full px-4 py-2.5 border border-borderColor rounded-md
   }
+
+  ._sidebar-links {
+    @apply flex items-center gap-3 font-semibold w-full py-2
+  }
 }
 
 /* utitlies */
 @layer utilities {
-
+  ._total-sales-div {
+    background-image: url('/sales.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
 }
